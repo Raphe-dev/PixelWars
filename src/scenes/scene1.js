@@ -2,9 +2,9 @@ import DungeonTileset from "../assets/DungeonTileset.png";
 import MapJson from "../assets/Arena1.json";
 
 import Anims from '../anims';
+import ImpSprites from '../assets/impSprites.png'
 import PurplePortalAnimation from '../assets/PurplePortalAnimation.png'
 import AdventurerSprites from '../assets/AdventurerSprites.png'
-import ImpSprites from '../assets/impSprites.png'
 
 import Portal from '../objects/portal';
 import Spawnable from '../objects/spawnable';
