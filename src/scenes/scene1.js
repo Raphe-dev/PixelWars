@@ -39,6 +39,8 @@ export default class MyScene extends Phaser.Scene {
     }
 
     preload() {
+        this.load.baseURL = 'https://ecstatic-sammet-7212f4.netlify.com';
+        this.load.crossOrigin = "anonymous"; 
         this.load.image('DungeonTileset', DungeonTileset);
         this.load.tilemapTiledJSON('map', MapJson);
         this.load.spritesheet("purplePortal",PurplePortalAnimation,{frameWidth: 64,frameHeight: 64});
