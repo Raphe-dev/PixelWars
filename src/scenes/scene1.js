@@ -76,8 +76,6 @@ export default class MyScene extends Phaser.Scene {
                                     new Adventurer(this, 100 , Math.random()*350 + 150)
                             }
                         });
-                        console.log(sprite)
-
                     }
                 }
         //TOP BAR
