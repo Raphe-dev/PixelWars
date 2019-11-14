@@ -12,3 +12,6 @@ Basic "castle war" game prototype
   - Manage gold (use, loot, income)
   - Enemy ai (spawn, use gold, counter)
   - Main Menu
+
+
+[A short demo](https://ecstatic-sammet-7212f4.netlify.com/)
