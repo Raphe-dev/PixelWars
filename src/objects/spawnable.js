@@ -150,7 +150,6 @@ export default class Spawnable {
     }
 
     getHit(damage) {
-      console.log(damage)
       this.state = 'hurt'
       this.life -= damage - this.defense;
       if(this.life < 1) {
